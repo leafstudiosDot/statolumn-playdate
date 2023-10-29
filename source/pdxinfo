@@ -1,0 +1,9 @@
+name=Statolumn
+author=leafstudiosDot
+description=Updating everyone
+bundleID=com.leafstudiosdot.statolumn
+version=1.0
+buildNumber=1
+imagePath=launcher/assets
+contentWarning=This app contains user-generated content, and may contain coarse language, sexual references, violence, or other content.
+contentWarning2=You must be +13 (+18 recommended) to use this app. This app is not intended for children. Discretion is advised.
