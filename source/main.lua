@@ -8,6 +8,7 @@ local inSession = false
 local clientVersion = 1
 
 local menu = playdate.getSystemMenu()
+local bgmusic = playdate.sound.fileplayer.new("/assets/bg.wav")
 
 function CheckSession()
 
@@ -51,6 +52,8 @@ function playdate.update()
     playdate.display.setScale(1)
     local statFont = playdate.graphics.getSystemFont()
     playdate.graphics.setFont(statFont)
+
+    bgmusic:play()
 
     statFont:drawTextAligned("Connecting to Statolumn Services...", 200, 110, kTextAlignment.center)
 
